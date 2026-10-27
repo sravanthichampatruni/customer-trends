@@ -4,7 +4,7 @@ select * from customer limit 3;
 select gender, sum(purchase_amount) as total_revenue from customer  group by gender;
 
 --Q2. Which customers used a discount but still spent more than the average purchase amount?
-select customer_id,purchase_amount  from customer where discount_applied='Yes' and purchase_amount >(select avg(purchase_amount) from customer);
+select customer_id, purchase_amount  from customer where discount_applied='Yes' and purchase_amount >(select avg(purchase_amount) from customer);
 
 -- Q3. Which are the top 5 products with the highest average review rating?
 select 	item_purchased, round(avg(review_rating)::numeric, 2) as avg_review_rating from customer group by item_purchased order by avg_review_rating desc limit 5;
@@ -56,6 +56,20 @@ SELECT item_rank,category, item_purchased, total_orders
 FROM item_counts
 WHERE item_rank <=3;
 
+--Q9. Are customers who are repeat buyers (more than 5 previous purchases) also likely to subscribe?
+SELECT subscription_status,
+       COUNT(customer_id) AS repeat_buyers
+FROM customer
+WHERE previous_purchases > 5
+GROUP BY subscription_status;
+
+--Q10. What is the revenue contribution of each age group? 
+SELECT 
+    age_group,
+    SUM(purchase_amount) AS total_revenue
+FROM customer
+GROUP BY age_group
+ORDER BY total_revenue desc;
 
 
 
