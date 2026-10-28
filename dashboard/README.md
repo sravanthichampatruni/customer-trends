@@ -8,3 +8,10 @@ Click the link below to open and interact with the production dashboard on Table
 
 ## 📷 Desktop Preview
 ![alt text](dashboard.png)
+
+## 📈 Live Interactive Link
+Click the link below to open and interact with the production dashboard on Tableau Public:
+👉 https://public.tableau.com/app/profile/sravanthi.champatruni/viz/CustomerTrendsBooksheet/CustomerTrendsDashboard?publish=yes
+
+## 📷 Desktop Preview
+![alt text](customer_trends_dashboard.png)
