@@ -1,17 +1,23 @@
-# Customer Trends Interactive Dashboard
+# Customer Trends Interactive Dashboards
 
 This directory contains the visual assets and access points for the project's interactive business intelligence layer.
 
-## 📈 Live Interactive Link
-Click the link below to open and interact with the production dashboard on Tableau Public:
-👉 https://public.tableau.com/app/profile/sravanthi.champatruni/viz/customerShoppingBehavior_17922647499530/CustomerTrendsDashboard
+---
 
-## 📷 Desktop Preview
-![alt text](dashboard.png)
+## 📈 Customer Shopping Behavior Dashboard
 
-## 📈 Live Interactive Link
-Click the link below to open and interact with the production dashboard on Tableau Public:
-👉 https://public.tableau.com/app/profile/sravanthi.champatruni/viz/CustomerTrendsBooksheet/CustomerTrendsDashboard?publish=yes
+Revenue by category, age group, season, and subscription status.
 
-## 📷 Desktop Preview
-![alt text](customer_trends_dashboard.png)
+👉 [View on Tableau Public](https://public.tableau.com/app/profile/sravanthi.champatruni/viz/customerShoppingBehavior_17922647499530/CustomerTrendsDashboard)
+
+![Customer Shopping Behavior Dashboard preview](dashboard.png)
+
+---
+
+## 📈 Customer Trends Dashboard
+
+KPI cards, customer funnel, demographic revenue, and product performance.
+
+👉 [View on Tableau Public](https://public.tableau.com/app/profile/sravanthi.champatruni/viz/CustomerTrendsBooksheet/CustomerTrendsDashboard)
+
+![Customer Trends Dashboard preview](customer_trends_dashboard.png)
