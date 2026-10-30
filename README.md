@@ -110,4 +110,4 @@ Before executing the data pipeline or reviewing the relational models, ensure yo
 
 - **Curriculum Reference:** This case study is built as a hands-on portfolio implementation following the core problem parameters outlined by tutor **Amlan Mohanty**.
 - **Platform Enhancement:** While the baseline tutorial framework structured reporting layouts via Power BI, the complete reporting layer for this repository was independently migrated, customized, and deployed using **Tableau Desktop** to highlight multi-platform visualization skills.
-- **AI Assistance: Used Claude (Anthropic).
+- **AI Assistance:** Used Claude (Anthropic).
